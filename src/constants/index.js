@@ -46,15 +46,31 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Web Designer",
+    icon: web,
+  },
+  {
+    title: "React js Developer",
+    icon: reactjs,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
+    title: "Full-Stack Developer",
+    icon: web,
+  },
+  {
+    title: "React Native Developer",
+    icon: mobile,
+  },
+  {
     title: "Content Creator",
+    icon: creator,
+  },
+  {
+    title: "Digital Marketer",
     icon: creator,
   },
 ];
@@ -112,15 +128,15 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+   
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Web Defend It",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - April June",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -128,42 +144,16 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+   
+   
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Backend Developer",
+    company_name: "SoftyPy",
+    iconBg: "#578a92",
+    date: "September 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining website implementation using Node.js, Express js, Mongodb and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -176,7 +166,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
@@ -192,73 +182,125 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Twitch Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Twitch is an interactive livestreaming service for content spanning gaming, entertainment, sports, music, and more.Here users can make live video, live chat, follow, block and manage. ",
     tags: [
       {
-        name: "react",
+        name: "Next js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Livekit",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Ngrok",
+        color: "red-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: "https://res.cloudinary.com/dfunuoqfv/image/upload/v1704636116/Screenshot_86_pyu4xh.png",
+    source_code_link: "https://github.com/farukphero/video-hub",
+    live_link:"https://video-hub-two-mu.vercel.app/"
   },
   {
-    name: "Job IT",
+    name: "House rent",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The application allows users to search for houses, mess rooms, hotels, offices, and shops based on their location and view what is available. User can direct chat with owner.",
     tags: [
       {
-        name: "react",
+        name: "Next js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Redux Toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Typescript",
         color: "pink-text-gradient",
       },
+      {
+        name: "Socket io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "white-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "https://res.cloudinary.com/dfunuoqfv/image/upload/v1704636616/Screenshot_88_t3tib7.png",
+    source_code_link: "https://github.com/farukphero/quickvara-client",
+    live_link:"https://quickvara.com/"
   },
   {
-    name: "Trip Guide",
+    name: "Fitness Tracker",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "In this website users can set activities on basis of weight goals and see their activities on a chart according to daily, weekly, monthly, and yearly basis. They can also set their food and water limits.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Redux",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node js",
+        color: "white-text-gradient",
+      },
+      
+      {
+        name: "Mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "https://res.cloudinary.com/dfunuoqfv/image/upload/v1704636406/Screenshot_14_lscwef.png",
+    source_code_link: "https://github.com/farukphero/fitness-tracking-web-client",
+    live_link:"https://fitlessian.web.app/"
   },
 ];
 
